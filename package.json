@@ -1,7 +1,7 @@
 {
-  "name": "instagram-private-api",
-  "description": "Instagram private API wrapper for full access to instagram",
-  "version": "0.10.1",
+  "name": "Inimus",
+  "description": "Inimus is instagram private API wrapper for instagram access based on Instagram private API(https://github.com/dilame/instagram-private-api) ",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,14 +12,14 @@
     "node": ">=8.0.0"
   },
   "bugs": {
-    "url": "https://github.com/huttarichard/instagram-private-api/issues",
-    "email": "huttarichard@gmail.com"
+    "url": "https://github.com/namespacedevs/inimus/issues",
+    "email": "contact@namespace.net.br"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huttarichard/instagram-private-api.git"
+    "url": "https://github.com/namespacedevs/inimus"
   },
-  "homepage": "https://github.com/huttarichard/instagram-private-api",
+  "homepage": "https://github.com/namespacedevs/inimus",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
